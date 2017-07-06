@@ -1,0 +1,6 @@
+
+Processing: user_runstring = ./Portfolio.py --pt add:Small Value,Non_Retirement,50000:Small Value,Retirement,20000:Healthcare,Retirement,50000 --pfile demo_data_file.xml
+
+
+Processing: --pt add:Small Value,Non_Retirement,50000:Small Value,Retirement,20000:Healthcare,Retirement,50000
+

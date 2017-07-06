@@ -1,0 +1,40 @@
+head	1.1;
+access;
+symbols;
+locks
+	mi:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2017.05.12.23.26.12;	author mi;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#!/bin/bash
+
+while read line; do
+   cmd=$(echo $line | cut -f1 -d%)
+   description=$(echo $line | cut -f2 -d%)
+   echo "Description: $description"
+   echo "Command: $cmd"
+   $cmd
+done <<EOH
+py.test  -v -s  test_class_demo2.py   --browser firefox    % returning a value from a fixture
+EOH
+
+# py.test  -v -s  pytestpackage --browser firefox    % returning a value from a fixture
+
+
+
+@

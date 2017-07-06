@@ -1,0 +1,33 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --pt add:Small_Growth,Non_Retirement,30000:Energy,Non_Retirement,15000:Large_Value,Non_Retirement,15000:Global,Non_Retirement,15000:REIT,Non_Retirement,15000:Healthcare,Non_Retirement,15000%lp_diff --pfile demo_data_file.xml
+
+Processing: --price_web_update
+
+Processing:  --pt add:Small_Growth,Non_Retirement,30000:Energy,Non_Retirement,15000:Large_Value,Non_Retirement,15000:Global,Non_Retirement,15000:REIT,Non_Retirement,15000:Healthcare,Non_Retirement,15000
+
+Processing: --pt add:Small_Growth,Non_Retirement,30000:Energy,Non_Retirement,15000:Large_Value,Non_Retirement,15000:Global,Non_Retirement,15000:REIT,Non_Retirement,15000:Healthcare,Non_Retirement,15000
+
+Processing:  --pt lp_diff
+
+What to invest in next = has the lowest percents = at the top of the list--
+----------------------------------------------------------------------------
+List includes Bonds and Individual_Stocks but they are pushed down to the bottom of the lists.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    Before                         After                        Before                        After                        Before                        After
+Asset                Tot_%    Asset                Tot_%    Asset                Ret_%    Asset               Ret_%    Asset                Non_%    Asset               Non_%
+Small_Value           2.24    Small_Value           2.24    Mid_Blend_Aggress     0.00    Mid_Blend_Aggress    0.00    Global                2.73    Global               2.73
+Small_Blend           2.66    Small_Blend           2.66    Small_Value           0.55    Small_Value          0.55    Large_Value           4.31    Large_Value          4.31
+Healthcare            3.04    Healthcare            3.04    Healthcare            0.81    Healthcare           0.81    Small_Growth          4.50    Small_Growth         4.50
+Large_Blend           5.13    Large_Blend           5.13    Small_Blend           0.85    Small_Blend          0.85    Small_Value           4.80    Small_Value          4.80
+Large_Value           5.56    Large_Value           5.56    Large_Blend           4.53    Large_Blend          4.53    Mid_Growth            4.97    Mid_Growth           4.97
+Mid_Value             6.28    Mid_Value             6.28    Mid_Value             5.89    Mid_Value            5.89    Small_Blend           5.42    Small_Blend          5.42
+Global                6.79    Global                6.79    Large_Value           6.38    Large_Value          6.38    Energy                5.46    Energy               5.46
+Mid_Blend_Aggress     8.55    Mid_Blend_Aggress     8.55    Global                9.47    Global               9.47    Large_Blend           6.02    Large_Blend          6.02
+Small_Growth          9.67    Small_Growth          9.67    Small_Growth         13.08    Small_Growth        13.08    Healthcare            6.43    Healthcare           6.43
+Mid_Growth           10.36    Mid_Growth           10.36    Mid_Growth           13.91    Mid_Growth          13.91    Mid_Value             6.87    Mid_Value            6.87
+Energy               10.68    Energy               10.68    Energy               14.11    Energy              14.11    Large_Growth          9.21    Large_Growth         9.21
+REIT                 12.57    REIT                 12.57    REIT                 14.56    REIT                14.56    REIT                  9.53    REIT                 9.53
+Large_Growth         13.21    Large_Growth         13.21    Large_Growth         15.85    Large_Growth        15.85    Mid_Blend_Aggress    21.52    Mid_Blend_Aggress   21.52
+Individual_Stocks     3.27    Individual_Stocks     3.27    Individual_Stocks     0.00    Individual_Stocks    0.00    Individual_Stocks     8.22    Individual_Stocks    8.22
+Totals              100.01                        100.01                         99.99                        99.99                         99.99                        99.99
+

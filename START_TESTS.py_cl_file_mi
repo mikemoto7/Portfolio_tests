@@ -1,0 +1,2 @@
+START_TESTS.py --tr tc:test_runstring_price_web_update
+START_TESTS.py --tr misc

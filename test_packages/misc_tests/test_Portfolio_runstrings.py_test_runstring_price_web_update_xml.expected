@@ -1,0 +1,1820 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --xml --pfile demo_data_file.xml
+
+
+Processing: --price_web_update
+<comment>Processing: --xml True</comment>
+<top>
+   <Portfolio_version>20170222</Portfolio_version>
+   <Investments>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>4</file_line_num>
+         <account_ID>777</account_ID>
+         <asset_class>Healthcare</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>10.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>50.0</curr_quantity>
+         <curr_share_price>82.71</curr_share_price>
+         <curr_total_value>4135.50</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>1</inv_ID>
+         <name>Vanguard Healthcare</name>
+         <name_short>Vanguard Healthcare</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>SEP_IRA</retirement_class>
+         <retirement_class_short>SEP_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGHAX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>41</file_line_num>
+         <account_ID>2777</account_ID>
+         <asset_class>Small_Blend</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>15.53</cb_gain_loss>
+               <cb_quantity>30.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>53.73</cb_share_price>
+               <cb_total_value>1611.90</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>70.0</curr_quantity>
+         <curr_share_price>63.96</curr_share_price>
+         <curr_total_value>4477.20</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>3</inv_ID>
+         <name>Vanguard Small-Cap Idx</name>
+         <name_short>Vanguard Small Idx</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>NAESX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>79</file_line_num>
+         <account_ID>3777</account_ID>
+         <asset_class>REIT</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>40.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>80.0</curr_quantity>
+         <curr_share_price>118.78</curr_share_price>
+         <curr_total_value>9502.40</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>4</inv_ID>
+         <name>Vanguard REIT</name>
+         <name_short>Vanguard REIT</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>SEP_IRA</retirement_class>
+         <retirement_class_short>SEP_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGSLX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>116</file_line_num>
+         <account_ID>4777</account_ID>
+         <asset_class>Global</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>50.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>90.0</curr_quantity>
+         <curr_share_price>26.09</curr_share_price>
+         <curr_total_value>2348.10</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>5</inv_ID>
+         <name>Vanguard Global Equity</name>
+         <name_short>Vanguard Global Equity</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>SEP_IRA</retirement_class>
+         <retirement_class_short>SEP_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VHGEX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>153</file_line_num>
+         <account_ID>5777</account_ID>
+         <asset_class>Small_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>60.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>100.0</curr_quantity>
+         <curr_share_price>29.70</curr_share_price>
+         <curr_total_value>2970.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>6</inv_ID>
+         <name>Vanguard Small-Cap Value Idx</name>
+         <name_short>Vanguard Small-Cap Val Idx</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VISVX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>190</file_line_num>
+         <account_ID>6777</account_ID>
+         <asset_class>REIT</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>70.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>110.0</curr_quantity>
+         <curr_share_price>27.84</curr_share_price>
+         <curr_total_value>3062.40</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>7</inv_ID>
+         <name>Vanguard REIT</name>
+         <name_short>Vanguard REIT</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGSIX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>227</file_line_num>
+         <account_ID>7777</account_ID>
+         <asset_class>Mid_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>80.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>120.0</curr_quantity>
+         <curr_share_price>23.48</curr_share_price>
+         <curr_total_value>2817.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>8</inv_ID>
+         <name>Vanguard Mid-Cap Growth</name>
+         <name_short>Vanguard Mid-Cap Growth</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VMGRX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>264</file_line_num>
+         <account_ID>8777</account_ID>
+         <asset_class>Mid_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>90.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>130.0</curr_quantity>
+         <curr_share_price>23.48</curr_share_price>
+         <curr_total_value>3052.40</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>9</inv_ID>
+         <name>Vanguard Mid-Cap Growth</name>
+         <name_short>Vanguard Mid-Cap Growth</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VMGRX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>301</file_line_num>
+         <account_ID>9777</account_ID>
+         <asset_class>Large_Growth</asset_class>
+         <brokerage>Fidelity</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>100.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>57.91</cb_share_price>
+               <cb_total_value>5791.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>140.0</curr_quantity>
+         <curr_share_price>104.60</curr_share_price>
+         <curr_total_value>14644.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>13</inv_ID>
+         <name>Fidelity Contrafund</name>
+         <name_short>Fidelity Contrafund</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>FCNTX</symbol>
+         <total_value_hi>
+            <tvh_date></tvh_date>
+            <tvh_quantity></tvh_quantity>
+            <tvh_share_price></tvh_share_price>
+            <tvh_total_value>0.00</tvh_total_value>
+         </total_value_hi>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>338</file_line_num>
+         <account_ID>10777</account_ID>
+         <asset_class>Mid_Growth</asset_class>
+         <brokerage>Fidelity</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>110.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>28.76</cb_share_price>
+               <cb_total_value>3163.60</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>150.0</curr_quantity>
+         <curr_share_price>37.42</curr_share_price>
+         <curr_total_value>5613.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>14</inv_ID>
+         <name>Fidelity New Millennium</name>
+         <name_short>Fidelity New Millennium</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>FMILX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>370</file_line_num>
+         <account_ID>13777</account_ID>
+         <asset_class>Individual_Stocks</asset_class>
+         <brokerage>Schwab</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>140.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>180.0</curr_quantity>
+         <curr_share_price>143.77</curr_share_price>
+         <curr_total_value>25878.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>18</inv_ID>
+         <name>Netflix</name>
+         <name_short>Netflix</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>NFLX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>402</file_line_num>
+         <account_ID>14777</account_ID>
+         <asset_class>Mid_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>220.24</cb_gain_loss>
+               <cb_quantity>150.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>41.11</cb_share_price>
+               <cb_total_value>6166.50</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>190.0</curr_quantity>
+         <curr_share_price>57.01</curr_share_price>
+         <curr_total_value>10831.90</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>19</inv_ID>
+         <name>Vanguard Capital Opportunity</name>
+         <name_short>Vanguard Capital Opportunity</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VHCOX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>435</file_line_num>
+         <account_ID>15777</account_ID>
+         <asset_class>Energy</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>160.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>200.0</curr_quantity>
+         <curr_share_price>99.49</curr_share_price>
+         <curr_total_value>19898.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>20</inv_ID>
+         <name>Vanguard Energy</name>
+         <name_short>Vanguard Energy</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VGELX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>467</file_line_num>
+         <account_ID>16777</account_ID>
+         <asset_class>Large_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>892.22</cb_gain_loss>
+               <cb_quantity>170.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>67872.31</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>210.0</curr_quantity>
+         <curr_share_price>69.66</curr_share_price>
+         <curr_total_value>14628.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>21</inv_ID>
+         <name>Vanguard Equity Income</name>
+         <name_short>Vanguard Equity Income</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VEIRX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>500</file_line_num>
+         <account_ID>17777</account_ID>
+         <asset_class>Mid_Blend_Aggress</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>180.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>220.0</curr_quantity>
+         <curr_share_price>75.74</curr_share_price>
+         <curr_total_value>16662.80</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>22</inv_ID>
+         <name>Vanguard Extended Market Idx</name>
+         <name_short>Vanguard Extended Mkt Idx</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VEXAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>532</file_line_num>
+         <account_ID>18777</account_ID>
+         <asset_class>Global</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>90.80</cb_gain_loss>
+               <cb_quantity>190.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>63359.37</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>230.0</curr_quantity>
+         <curr_share_price>26.09</curr_share_price>
+         <curr_total_value>6000.70</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>23</inv_ID>
+         <name>Vanguard Global Equity</name>
+         <name_short>Vanguard Global Equity</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VHGEX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>565</file_line_num>
+         <account_ID>19777</account_ID>
+         <asset_class>Global</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>200.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>240.0</curr_quantity>
+         <curr_share_price>12.24</curr_share_price>
+         <curr_total_value>2937.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>24</inv_ID>
+         <name>Vanguard Global Minimum Volatility</name>
+         <name_short>Vanguard Global Min Volatile</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VMVFX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>597</file_line_num>
+         <account_ID>20777</account_ID>
+         <asset_class>Large_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>23.08</cb_gain_loss>
+               <cb_quantity>210.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>54.40</cb_share_price>
+               <cb_total_value>11424.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>250.0</curr_quantity>
+         <curr_share_price>60.79</curr_share_price>
+         <curr_total_value>15197.50</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>25</inv_ID>
+         <name>Vanguard Growth Idx</name>
+         <name_short>Vanguard Growth Idx</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VIGAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>630</file_line_num>
+         <account_ID>21777</account_ID>
+         <asset_class>Healthcare</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>220.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>260.0</curr_quantity>
+         <curr_share_price>82.71</curr_share_price>
+         <curr_total_value>21504.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>26</inv_ID>
+         <name>Vanguard Healthcare</name>
+         <name_short>Vanguard Healthcare</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VGHAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>662</file_line_num>
+         <account_ID>22777</account_ID>
+         <asset_class>Mid_Blend_Aggress</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>152.76</cb_gain_loss>
+               <cb_quantity>230.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>34955.87</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>270.0</curr_quantity>
+         <curr_share_price>171.16</curr_share_price>
+         <curr_total_value>46213.20</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>27</inv_ID>
+         <name>Vanguard Mid-Cap Idx</name>
+         <name_short>Vanguard Mid-Cap Idx</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VIMAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>695</file_line_num>
+         <account_ID>23777</account_ID>
+         <asset_class>Mid_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>240.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>280.0</curr_quantity>
+         <curr_share_price>52.42</curr_share_price>
+         <curr_total_value>14677.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>28</inv_ID>
+         <name>Vanguard Mid-Cap Value</name>
+         <name_short>Vanguard Mid-Cap Value</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VMVAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>727</file_line_num>
+         <account_ID>24777</account_ID>
+         <asset_class>REIT</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>514.94</cb_gain_loss>
+               <cb_quantity>250.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>72725.62</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>290.0</curr_quantity>
+         <curr_share_price>118.78</curr_share_price>
+         <curr_total_value>34446.20</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>29</inv_ID>
+         <name>Vanguard REIT</name>
+         <name_short>Vanguard REIT</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VGSLX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>760</file_line_num>
+         <account_ID>25777</account_ID>
+         <asset_class>Mid_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>260.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>300.0</curr_quantity>
+         <curr_share_price>30.09</curr_share_price>
+         <curr_total_value>9027.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>30</inv_ID>
+         <name>Vanguard Selected Value</name>
+         <name_short>Vanguard Selected Value</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VASVX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>792</file_line_num>
+         <account_ID>26777</account_ID>
+         <asset_class>Small_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>20110921</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_owner>Joint</cb_owner>
+               <cb_quantity>270.0</cb_quantity>
+               <cb_reason>Purchased</cb_reason>
+               <cb_retirement_class>Non_Retirement</cb_retirement_class>
+               <cb_share_price>19.73</cb_share_price>
+               <cb_symbol>VISGX</cb_symbol>
+               <cb_total_value>5524.40</cb_total_value>
+            </cb_event>
+            <cb_event>
+               <cb_date>20111121</cb_date>
+               <cb_event_type>conversion</cb_event_type>
+               <cb_owner>Joint</cb_owner>
+               <cb_quantity>280.0</cb_quantity>
+               <cb_reason>Converted from Investor shares to Admiral shares</cb_reason>
+               <cb_retirement_class>Non_Retirement</cb_retirement_class>
+               <cb_share_price>19.73</cb_share_price>
+               <cb_symbol>VSGAX</cb_symbol>
+               <cb_total_value>5524.40</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>310.0</curr_quantity>
+         <curr_share_price>49.17</curr_share_price>
+         <curr_total_value>15242.70</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>31</inv_ID>
+         <name>Vanguard Small-Cap Growth Idx Fund</name>
+         <name_short>Vanguard Small Growth Idx</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VSGAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>838</file_line_num>
+         <account_ID>27777</account_ID>
+         <asset_class>Small_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>290.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>320.0</curr_quantity>
+         <curr_share_price>53.24</curr_share_price>
+         <curr_total_value>17036.80</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>32</inv_ID>
+         <name>Vanguard Small-Cap Value Idx</name>
+         <name_short>Vanguard Small-Cap Val Idx</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VSIAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>870</file_line_num>
+         <account_ID>28777</account_ID>
+         <asset_class>Mid_Blend_Aggress</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>155.25</cb_gain_loss>
+               <cb_quantity>300.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>33515.16</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>330.0</curr_quantity>
+         <curr_share_price>33.63</curr_share_price>
+         <curr_total_value>11097.90</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>33</inv_ID>
+         <name>Vanguard Strategic Equity</name>
+         <name_short>Vanguard Strategic Equity</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VSEQX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>903</file_line_num>
+         <account_ID>29777</account_ID>
+         <asset_class>Small_Blend</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>310.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>340.0</curr_quantity>
+         <curr_share_price>55.94</curr_share_price>
+         <curr_total_value>19019.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>34</inv_ID>
+         <name>Vanguard Tax-Managed Small-Cap Value</name>
+         <name_short>Vanguard Tax-Managed Sml Val</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VTMSX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>935</file_line_num>
+         <account_ID>30777</account_ID>
+         <asset_class>Large_Blend</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>384.35</cb_gain_loss>
+               <cb_quantity>320.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>59254.97</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>350.0</curr_quantity>
+         <curr_share_price>58.18</curr_share_price>
+         <curr_total_value>20363.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>35</inv_ID>
+         <name>Vanguard Total Stock Market Idx</name>
+         <name_short>Vanguard Total Stock Mkt Idx</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Non_Retirement</retirement_class>
+         <retirement_class_short>Non_Ret</retirement_class_short>
+         <status>active</status>
+         <symbol>VTSAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>968</file_line_num>
+         <account_ID>31777</account_ID>
+         <asset_class>Large_Growth</asset_class>
+         <brokerage>Fidelity</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>330.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>19.75</cb_share_price>
+               <cb_total_value>6517.50</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>360.0</curr_quantity>
+         <curr_share_price>104.60</curr_share_price>
+         <curr_total_value>37656.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>36</inv_ID>
+         <name>Fidelity Contrafund</name>
+         <name_short>Fidelity Contrafund</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>FCNTX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1000</file_line_num>
+         <account_ID>32777</account_ID>
+         <asset_class>Mid_Value</asset_class>
+         <brokerage>Fidelity</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>340.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>12.68</cb_share_price>
+               <cb_total_value>4311.20</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>370.0</curr_quantity>
+         <curr_share_price>50.88</curr_share_price>
+         <curr_total_value>18825.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>37</inv_ID>
+         <name>Fidelity Low-Priced Stock</name>
+         <name_short>Fidelity Low-Priced Stock</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>FLPSX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1032</file_line_num>
+         <account_ID>33777</account_ID>
+         <asset_class>Large_Growth</asset_class>
+         <brokerage>Fidelity</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>350.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>380.0</curr_quantity>
+         <curr_share_price>104.60</curr_share_price>
+         <curr_total_value>39748.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>38</inv_ID>
+         <name>Fidelity Contrafund</name>
+         <name_short>Fidelity Contrafund</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional 401K</retirement_class>
+         <retirement_class_short>Trad_401K</retirement_class_short>
+         <status>active</status>
+         <symbol>FCNTX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1064</file_line_num>
+         <account_ID>34777</account_ID>
+         <asset_class>Global</asset_class>
+         <brokerage>Fidelity</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>transfer</cb_event_type>
+               <cb_quantity>360.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>47.06</cb_share_price>
+               <cb_total_value>17412.20</cb_total_value>
+            </cb_event>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>370.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>47.06</cb_share_price>
+               <cb_total_value>17412.20</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>390.0</curr_quantity>
+         <curr_share_price>51.27</curr_share_price>
+         <curr_total_value>19995.30</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>39</inv_ID>
+         <name>Fidelity Canada</name>
+         <name_short>Fidelity Canada</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>FICDX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1104</file_line_num>
+         <account_ID>35777</account_ID>
+         <asset_class>Energy</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>380.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>400.0</curr_quantity>
+         <curr_share_price>53.02</curr_share_price>
+         <curr_total_value>21208.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>42</inv_ID>
+         <name>Vanguard Energy</name>
+         <name_short>Vanguard Energy</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGENX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1136</file_line_num>
+         <account_ID>36777</account_ID>
+         <asset_class>REIT</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>390.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>410.0</curr_quantity>
+         <curr_share_price>27.84</curr_share_price>
+         <curr_total_value>11414.40</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>43</inv_ID>
+         <name>Vanguard REIT</name>
+         <name_short>Vanguard REIT</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGSIX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1168</file_line_num>
+         <account_ID>37777</account_ID>
+         <asset_class>Mid_Value</asset_class>
+         <asset_class_from_web>Mid-Cap Blend</asset_class_from_web>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>400.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>420.0</curr_quantity>
+         <curr_share_price>12.29</curr_share_price>
+         <curr_total_value>5161.80</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>44</inv_ID>
+         <name>Vanguard Capital Value</name>
+         <name_short>Vanguard Capital Value</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VCVLX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1201</file_line_num>
+         <account_ID>38777</account_ID>
+         <asset_class>Large_Blend</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>73.28</cb_gain_loss>
+               <cb_quantity>410.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>17.72</cb_share_price>
+               <cb_total_value>7265.20</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>430.0</curr_quantity>
+         <curr_share_price>24.11</curr_share_price>
+         <curr_total_value>10367.30</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>45</inv_ID>
+         <name>Vanguard Dividend Growth</name>
+         <name_short>Vanguard Dividend Growth</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VDIGX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1234</file_line_num>
+         <account_ID>39777</account_ID>
+         <asset_class>Large_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>420.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>440.0</curr_quantity>
+         <curr_share_price>33.23</curr_share_price>
+         <curr_total_value>14621.20</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>46</inv_ID>
+         <name>Vanguard Equity Income</name>
+         <name_short>Vanguard Equity Income</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VEIPX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1266</file_line_num>
+         <account_ID>40777</account_ID>
+         <asset_class>Global</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>430.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>450.0</curr_quantity>
+         <curr_share_price>26.09</curr_share_price>
+         <curr_total_value>11740.50</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>47</inv_ID>
+         <name>Vanguard Global Equity</name>
+         <name_short>Vanguard Global Equity</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VHGEX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1298</file_line_num>
+         <account_ID>41777</account_ID>
+         <asset_class>Small_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>6.62</cb_gain_loss>
+               <cb_quantity>440.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>21.47</cb_share_price>
+               <cb_total_value>9446.80</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>460.0</curr_quantity>
+         <curr_share_price>39.33</curr_share_price>
+         <curr_total_value>18091.80</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>48</inv_ID>
+         <name>Vanguard Small-Cap Growth Idx Fund</name>
+         <name_short>Vanguard Small Growth Idx</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VISGX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1331</file_line_num>
+         <account_ID>42777</account_ID>
+         <asset_class>REIT</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>450.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>470.0</curr_quantity>
+         <curr_share_price>118.78</curr_share_price>
+         <curr_total_value>55826.60</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>49</inv_ID>
+         <name>Vanguard REIT</name>
+         <name_short>Vanguard REIT</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGSLX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1363</file_line_num>
+         <account_ID>43777</account_ID>
+         <asset_class>Mid_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_gain_loss>0.00</cb_gain_loss>
+               <cb_quantity>460.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>480.0</curr_quantity>
+         <curr_share_price>131.60</curr_share_price>
+         <curr_total_value>63168.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>50</inv_ID>
+         <name>Vanguard Capital Opportunity</name>
+         <name_short>Vanguard Capital Opportunity</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Rollover_IRA</retirement_class>
+         <retirement_class_short>Rollover</retirement_class_short>
+         <status>active</status>
+         <symbol>VHCAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1396</file_line_num>
+         <account_ID>44777</account_ID>
+         <asset_class>Small_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>470.0</cb_quantity>
+               <cb_reason>Baron Fund</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>10080.00</cb_total_value>
+            </cb_event>
+            <cb_event>
+               <cb_date>20110815</cb_date>
+               <cb_event_type>conversion</cb_event_type>
+               <cb_quantity>480.0</cb_quantity>
+               <cb_reason>Baron Fund converted to Vanguard Small Growth Idx</cb_reason>
+               <cb_share_price>21.00</cb_share_price>
+               <cb_total_value>10080.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>490.0</curr_quantity>
+         <curr_share_price>49.17</curr_share_price>
+         <curr_total_value>24093.30</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>51</inv_ID>
+         <name>Vanguard Small-Cap Growth Idx Fund Admiral</name>
+         <name_short>Vanguard Small Growth</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Rollover_IRA</retirement_class>
+         <retirement_class_short>Rollover</retirement_class_short>
+         <status>active</status>
+         <symbol>VSGAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1436</file_line_num>
+         <account_ID>45777</account_ID>
+         <asset_class>Energy</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>490.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>500.0</curr_quantity>
+         <curr_share_price>53.02</curr_share_price>
+         <curr_total_value>26510.00</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>52</inv_ID>
+         <name>Vanguard Energy</name>
+         <name_short>Vanguard Energy</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Roth_IRA</retirement_class>
+         <retirement_class_short>Roth_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGENX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1468</file_line_num>
+         <account_ID>46777</account_ID>
+         <asset_class>Small_Growth</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>500.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>510.0</curr_quantity>
+         <curr_share_price>49.17</curr_share_price>
+         <curr_total_value>25076.70</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>53</inv_ID>
+         <name>Vanguard Small-Cap Growth Idx</name>
+         <name_short>Vanguard Small Growth</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Roth_IRA</retirement_class>
+         <retirement_class_short>Roth_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VSGAX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1500</file_line_num>
+         <account_ID>47777</account_ID>
+         <asset_class>Mid_Value</asset_class>
+         <asset_class_from_web>Mid-Cap Blend</asset_class_from_web>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>510.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>520.0</curr_quantity>
+         <curr_share_price>12.29</curr_share_price>
+         <curr_total_value>6390.80</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>54</inv_ID>
+         <name>Vanguard Capital Value</name>
+         <name_short>Vanguard Capital Value</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VCVLX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1533</file_line_num>
+         <account_ID>48777</account_ID>
+         <asset_class>Large_Blend</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>520.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>530.0</curr_quantity>
+         <curr_share_price>24.11</curr_share_price>
+         <curr_total_value>12778.30</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>55</inv_ID>
+         <name>Vanguard Dividend Growth</name>
+         <name_short>Vanguard Dividend Growth</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VDIGX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1565</file_line_num>
+         <account_ID>50777</account_ID>
+         <asset_class>Large_Value</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>540.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>27.06</cb_share_price>
+               <cb_total_value>14612.40</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>550.0</curr_quantity>
+         <curr_share_price>33.23</curr_share_price>
+         <curr_total_value>18276.50</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>57</inv_ID>
+         <name>Vanguard Equity Income</name>
+         <name_short>Vanguard Equity Income</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VEIPX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1597</file_line_num>
+         <account_ID>51777</account_ID>
+         <asset_class>Global</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>550.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>560.0</curr_quantity>
+         <curr_share_price>26.09</curr_share_price>
+         <curr_total_value>14610.40</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>58</inv_ID>
+         <name>Vanguard Global Equity</name>
+         <name_short>Vanguard Global Equity</name_short>
+         <owner>owner1</owner>
+         <owner_short>os1</owner_short>
+         <retirement_class>Traditional_IRA</retirement_class>
+         <retirement_class_short>Trad_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VHGEX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+      <Investment>
+         <filename>demo_data_file.xml</filename>
+         <file_line_num>1629</file_line_num>
+         <account_ID>52777</account_ID>
+         <asset_class>Energy</asset_class>
+         <brokerage>Vanguard</brokerage>
+         <cost_basis>
+            <cb_event>
+               <cb_date>00000000</cb_date>
+               <cb_event_type>purchase</cb_event_type>
+               <cb_quantity>560.0</cb_quantity>
+               <cb_reason>TBD_cost_basis</cb_reason>
+               <cb_share_price>0.00</cb_share_price>
+               <cb_total_value>0.00</cb_total_value>
+            </cb_event>
+         </cost_basis>
+         <curr_quantity>570.0</curr_quantity>
+         <curr_share_price>53.02</curr_share_price>
+         <curr_total_value>30221.40</curr_total_value>
+         <description>TBD</description>
+         <history>TBD_history</history>
+         <inv_ID>59</inv_ID>
+         <name>Vanguard Energy</name>
+         <name_short>Vanguard Energy</name_short>
+         <owner>owner2</owner>
+         <owner_short>os2</owner_short>
+         <retirement_class>Roth_IRA</retirement_class>
+         <retirement_class_short>Roth_IRA</retirement_class_short>
+         <status>active</status>
+         <symbol>VGENX</symbol>
+         <tvh_total_value>0.00</tvh_total_value>
+      </Investment>
+   </Investments>
+</top>
+<TBD_fields>
+ID:VGHAX,777,owner2,b'Vanguard Healthcare': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '4'), ('account_ID', '777'), ('asset_class', 'Healthcare'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '10.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '50.0'), ('curr_share_price', '82.71'), ('curr_total_value', '4135.50'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '1'), ('name', 'Vanguard Healthcare'), ('name_short', 'Vanguard Healthcare'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'SEP_IRA'), ('retirement_class_short', 'SEP_IRA'), ('status', 'active'), ('symbol', 'VGHAX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:NAESX,2777,owner2,b'Vanguard Small-Cap Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '41'), ('account_ID', '2777'), ('asset_class', 'Small_Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '15.53'), ('cb_quantity', '30.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '53.73'), ('cb_total_value', '1611.90')])]]), ('curr_quantity', '70.0'), ('curr_share_price', '63.96'), ('curr_total_value', '4477.20'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '3'), ('name', 'Vanguard Small-Cap Idx'), ('name_short', 'Vanguard Small Idx'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'NAESX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:VGSLX,3777,owner1,b'Vanguard REIT': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '79'), ('account_ID', '3777'), ('asset_class', 'REIT'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '40.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '80.0'), ('curr_share_price', '118.78'), ('curr_total_value', '9502.40'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '4'), ('name', 'Vanguard REIT'), ('name_short', 'Vanguard REIT'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'SEP_IRA'), ('retirement_class_short', 'SEP_IRA'), ('status', 'active'), ('symbol', 'VGSLX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:VHGEX,4777,owner2,b'Vanguard Global Equity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '116'), ('account_ID', '4777'), ('asset_class', 'Global'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '50.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '90.0'), ('curr_share_price', '26.09'), ('curr_total_value', '2348.10'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '5'), ('name', 'Vanguard Global Equity'), ('name_short', 'Vanguard Global Equity'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'SEP_IRA'), ('retirement_class_short', 'SEP_IRA'), ('status', 'active'), ('symbol', 'VHGEX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:VISVX,5777,owner1,b'Vanguard Small-Cap Value Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '153'), ('account_ID', '5777'), ('asset_class', 'Small_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '60.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '100.0'), ('curr_share_price', '29.70'), ('curr_total_value', '2970.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '6'), ('name', 'Vanguard Small-Cap Value Idx'), ('name_short', 'Vanguard Small-Cap Val Idx'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VISVX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:VGSIX,6777,owner2,b'Vanguard REIT': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '190'), ('account_ID', '6777'), ('asset_class', 'REIT'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '70.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '110.0'), ('curr_share_price', '27.84'), ('curr_total_value', '3062.40'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '7'), ('name', 'Vanguard REIT'), ('name_short', 'Vanguard REIT'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VGSIX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:VMGRX,7777,owner1,b'Vanguard Mid-Cap Growth': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '227'), ('account_ID', '7777'), ('asset_class', 'Mid_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '80.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '120.0'), ('curr_share_price', '23.48'), ('curr_total_value', '2817.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '8'), ('name', 'Vanguard Mid-Cap Growth'), ('name_short', 'Vanguard Mid-Cap Growth'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VMGRX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:VMGRX,8777,owner2,b'Vanguard Mid-Cap Growth': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '264'), ('account_ID', '8777'), ('asset_class', 'Mid_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '90.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '130.0'), ('curr_share_price', '23.48'), ('curr_total_value', '3052.40'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '9'), ('name', 'Vanguard Mid-Cap Growth'), ('name_short', 'Vanguard Mid-Cap Growth'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VMGRX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:FCNTX,9777,owner1,b'Fidelity Contrafund': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '301'), ('account_ID', '9777'), ('asset_class', 'Large_Growth'), ('brokerage', 'Fidelity'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '100.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '57.91'), ('cb_total_value', '5791.00')])]]), ('curr_quantity', '140.0'), ('curr_share_price', '104.60'), ('curr_total_value', '14644.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '13'), ('name', 'Fidelity Contrafund'), ('name_short', 'Fidelity Contrafund'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'FCNTX'), ('total_value_hi', OrderedDict([('tvh_date', None), ('tvh_quantity', None), ('tvh_share_price', None), ('tvh_total_value', '0.00')]))])
+
+ID:FMILX,10777,owner2,b'Fidelity New Millennium': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '338'), ('account_ID', '10777'), ('asset_class', 'Mid_Growth'), ('brokerage', 'Fidelity'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '110.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '28.76'), ('cb_total_value', '3163.60')])]]), ('curr_quantity', '150.0'), ('curr_share_price', '37.42'), ('curr_total_value', '5613.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '14'), ('name', 'Fidelity New Millennium'), ('name_short', 'Fidelity New Millennium'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'FMILX'), ('tvh_total_value', '0.00')])
+
+ID:NFLX,13777,owner1,b'Netflix': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '370'), ('account_ID', '13777'), ('asset_class', 'Individual_Stocks'), ('brokerage', 'Schwab'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '140.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '180.0'), ('curr_share_price', '143.77'), ('curr_total_value', '25878.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '18'), ('name', 'Netflix'), ('name_short', 'Netflix'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'NFLX'), ('tvh_total_value', '0.00')])
+
+ID:VHCOX,14777,owner2,b'Vanguard Capital Opportunity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '402'), ('account_ID', '14777'), ('asset_class', 'Mid_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '220.24'), ('cb_quantity', '150.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '41.11'), ('cb_total_value', '6166.50')])]]), ('curr_quantity', '190.0'), ('curr_share_price', '57.01'), ('curr_total_value', '10831.90'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '19'), ('name', 'Vanguard Capital Opportunity'), ('name_short', 'Vanguard Capital Opportunity'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VHCOX'), ('tvh_total_value', '0.00')])
+
+ID:VGELX,15777,owner1,b'Vanguard Energy': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '435'), ('account_ID', '15777'), ('asset_class', 'Energy'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '160.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '200.0'), ('curr_share_price', '99.49'), ('curr_total_value', '19898.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '20'), ('name', 'Vanguard Energy'), ('name_short', 'Vanguard Energy'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VGELX'), ('tvh_total_value', '0.00')])
+
+ID:VEIRX,16777,owner2,b'Vanguard Equity Income': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '467'), ('account_ID', '16777'), ('asset_class', 'Large_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '892.22'), ('cb_quantity', '170.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '67872.31')])]]), ('curr_quantity', '210.0'), ('curr_share_price', '69.66'), ('curr_total_value', '14628.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '21'), ('name', 'Vanguard Equity Income'), ('name_short', 'Vanguard Equity Income'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VEIRX'), ('tvh_total_value', '0.00')])
+
+ID:VEXAX,17777,owner1,b'Vanguard Extended Market Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '500'), ('account_ID', '17777'), ('asset_class', 'Mid_Blend_Aggress'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '180.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '220.0'), ('curr_share_price', '75.74'), ('curr_total_value', '16662.80'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '22'), ('name', 'Vanguard Extended Market Idx'), ('name_short', 'Vanguard Extended Mkt Idx'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VEXAX'), ('tvh_total_value', '0.00')])
+
+ID:VHGEX,18777,owner2,b'Vanguard Global Equity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '532'), ('account_ID', '18777'), ('asset_class', 'Global'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '90.80'), ('cb_quantity', '190.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '63359.37')])]]), ('curr_quantity', '230.0'), ('curr_share_price', '26.09'), ('curr_total_value', '6000.70'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '23'), ('name', 'Vanguard Global Equity'), ('name_short', 'Vanguard Global Equity'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VHGEX'), ('tvh_total_value', '0.00')])
+
+ID:VMVFX,19777,owner1,b'Vanguard Global Minimum Volatility': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '565'), ('account_ID', '19777'), ('asset_class', 'Global'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '200.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '240.0'), ('curr_share_price', '12.24'), ('curr_total_value', '2937.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '24'), ('name', 'Vanguard Global Minimum Volatility'), ('name_short', 'Vanguard Global Min Volatile'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VMVFX'), ('tvh_total_value', '0.00')])
+
+ID:VIGAX,20777,owner2,b'Vanguard Growth Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '597'), ('account_ID', '20777'), ('asset_class', 'Large_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '23.08'), ('cb_quantity', '210.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '54.40'), ('cb_total_value', '11424.00')])]]), ('curr_quantity', '250.0'), ('curr_share_price', '60.79'), ('curr_total_value', '15197.50'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '25'), ('name', 'Vanguard Growth Idx'), ('name_short', 'Vanguard Growth Idx'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VIGAX'), ('tvh_total_value', '0.00')])
+
+ID:VGHAX,21777,owner1,b'Vanguard Healthcare': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '630'), ('account_ID', '21777'), ('asset_class', 'Healthcare'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '220.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '260.0'), ('curr_share_price', '82.71'), ('curr_total_value', '21504.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '26'), ('name', 'Vanguard Healthcare'), ('name_short', 'Vanguard Healthcare'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VGHAX'), ('tvh_total_value', '0.00')])
+
+ID:VIMAX,22777,owner2,b'Vanguard Mid-Cap Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '662'), ('account_ID', '22777'), ('asset_class', 'Mid_Blend_Aggress'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '152.76'), ('cb_quantity', '230.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '34955.87')])]]), ('curr_quantity', '270.0'), ('curr_share_price', '171.16'), ('curr_total_value', '46213.20'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '27'), ('name', 'Vanguard Mid-Cap Idx'), ('name_short', 'Vanguard Mid-Cap Idx'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VIMAX'), ('tvh_total_value', '0.00')])
+
+ID:VMVAX,23777,owner1,b'Vanguard Mid-Cap Value': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '695'), ('account_ID', '23777'), ('asset_class', 'Mid_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '240.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '280.0'), ('curr_share_price', '52.42'), ('curr_total_value', '14677.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '28'), ('name', 'Vanguard Mid-Cap Value'), ('name_short', 'Vanguard Mid-Cap Value'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VMVAX'), ('tvh_total_value', '0.00')])
+
+ID:VGSLX,24777,owner2,b'Vanguard REIT': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '727'), ('account_ID', '24777'), ('asset_class', 'REIT'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '514.94'), ('cb_quantity', '250.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '72725.62')])]]), ('curr_quantity', '290.0'), ('curr_share_price', '118.78'), ('curr_total_value', '34446.20'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '29'), ('name', 'Vanguard REIT'), ('name_short', 'Vanguard REIT'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VGSLX'), ('tvh_total_value', '0.00')])
+
+ID:VASVX,25777,owner1,b'Vanguard Selected Value': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '760'), ('account_ID', '25777'), ('asset_class', 'Mid_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '260.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '300.0'), ('curr_share_price', '30.09'), ('curr_total_value', '9027.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '30'), ('name', 'Vanguard Selected Value'), ('name_short', 'Vanguard Selected Value'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VASVX'), ('tvh_total_value', '0.00')])
+
+ID:VSGAX,26777,owner2,b'Vanguard Small-Cap Growth Idx Fund': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '792'), ('account_ID', '26777'), ('asset_class', 'Small_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '20110921'), ('cb_event_type', 'purchase'), ('cb_owner', 'Joint'), ('cb_quantity', '270.0'), ('cb_reason', 'Purchased'), ('cb_retirement_class', 'Non_Retirement'), ('cb_share_price', '19.73'), ('cb_symbol', 'VISGX'), ('cb_total_value', '5524.40')])], ['cb_event', OrderedDict([('cb_date', '20111121'), ('cb_event_type', 'conversion'), ('cb_owner', 'Joint'), ('cb_quantity', '280.0'), ('cb_reason', 'Converted from Investor shares to Admiral shares'), ('cb_retirement_class', 'Non_Retirement'), ('cb_share_price', '19.73'), ('cb_symbol', 'VSGAX'), ('cb_total_value', '5524.40')])]]), ('curr_quantity', '310.0'), ('curr_share_price', '49.17'), ('curr_total_value', '15242.70'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '31'), ('name', 'Vanguard Small-Cap Growth Idx Fund'), ('name_short', 'Vanguard Small Growth Idx'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VSGAX'), ('tvh_total_value', '0.00')])
+
+ID:VSIAX,27777,owner1,b'Vanguard Small-Cap Value Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '838'), ('account_ID', '27777'), ('asset_class', 'Small_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '290.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '320.0'), ('curr_share_price', '53.24'), ('curr_total_value', '17036.80'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '32'), ('name', 'Vanguard Small-Cap Value Idx'), ('name_short', 'Vanguard Small-Cap Val Idx'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VSIAX'), ('tvh_total_value', '0.00')])
+
+ID:VSEQX,28777,owner2,b'Vanguard Strategic Equity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '870'), ('account_ID', '28777'), ('asset_class', 'Mid_Blend_Aggress'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '155.25'), ('cb_quantity', '300.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '33515.16')])]]), ('curr_quantity', '330.0'), ('curr_share_price', '33.63'), ('curr_total_value', '11097.90'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '33'), ('name', 'Vanguard Strategic Equity'), ('name_short', 'Vanguard Strategic Equity'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VSEQX'), ('tvh_total_value', '0.00')])
+
+ID:VTMSX,29777,owner1,b'Vanguard Tax-Managed Small-Cap Value': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '903'), ('account_ID', '29777'), ('asset_class', 'Small_Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '310.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '340.0'), ('curr_share_price', '55.94'), ('curr_total_value', '19019.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '34'), ('name', 'Vanguard Tax-Managed Small-Cap Value'), ('name_short', 'Vanguard Tax-Managed Sml Val'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VTMSX'), ('tvh_total_value', '0.00')])
+
+ID:VTSAX,30777,owner2,b'Vanguard Total Stock Market Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '935'), ('account_ID', '30777'), ('asset_class', 'Large_Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '384.35'), ('cb_quantity', '320.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '59254.97')])]]), ('curr_quantity', '350.0'), ('curr_share_price', '58.18'), ('curr_total_value', '20363.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '35'), ('name', 'Vanguard Total Stock Market Idx'), ('name_short', 'Vanguard Total Stock Mkt Idx'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Non_Retirement'), ('retirement_class_short', 'Non_Ret'), ('status', 'active'), ('symbol', 'VTSAX'), ('tvh_total_value', '0.00')])
+
+ID:FCNTX,31777,owner1,b'Fidelity Contrafund': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '968'), ('account_ID', '31777'), ('asset_class', 'Large_Growth'), ('brokerage', 'Fidelity'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '330.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '19.75'), ('cb_total_value', '6517.50')])]]), ('curr_quantity', '360.0'), ('curr_share_price', '104.60'), ('curr_total_value', '37656.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '36'), ('name', 'Fidelity Contrafund'), ('name_short', 'Fidelity Contrafund'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'FCNTX'), ('tvh_total_value', '0.00')])
+
+ID:FLPSX,32777,owner2,b'Fidelity Low-Priced Stock': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1000'), ('account_ID', '32777'), ('asset_class', 'Mid_Value'), ('brokerage', 'Fidelity'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '340.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '12.68'), ('cb_total_value', '4311.20')])]]), ('curr_quantity', '370.0'), ('curr_share_price', '50.88'), ('curr_total_value', '18825.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '37'), ('name', 'Fidelity Low-Priced Stock'), ('name_short', 'Fidelity Low-Priced Stock'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'FLPSX'), ('tvh_total_value', '0.00')])
+
+ID:FCNTX,33777,owner1,b'Fidelity Contrafund': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1032'), ('account_ID', '33777'), ('asset_class', 'Large_Growth'), ('brokerage', 'Fidelity'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '350.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '380.0'), ('curr_share_price', '104.60'), ('curr_total_value', '39748.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '38'), ('name', 'Fidelity Contrafund'), ('name_short', 'Fidelity Contrafund'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional 401K'), ('retirement_class_short', 'Trad_401K'), ('status', 'active'), ('symbol', 'FCNTX'), ('tvh_total_value', '0.00')])
+
+ID:FICDX,34777,owner2,b'Fidelity Canada': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1064'), ('account_ID', '34777'), ('asset_class', 'Global'), ('brokerage', 'Fidelity'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'transfer'), ('cb_quantity', '360.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '47.06'), ('cb_total_value', '17412.20')])], ['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '370.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '47.06'), ('cb_total_value', '17412.20')])]]), ('curr_quantity', '390.0'), ('curr_share_price', '51.27'), ('curr_total_value', '19995.30'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '39'), ('name', 'Fidelity Canada'), ('name_short', 'Fidelity Canada'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'FICDX'), ('tvh_total_value', '0.00')])
+
+ID:VGENX,35777,owner1,b'Vanguard Energy': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1104'), ('account_ID', '35777'), ('asset_class', 'Energy'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '380.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '400.0'), ('curr_share_price', '53.02'), ('curr_total_value', '21208.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '42'), ('name', 'Vanguard Energy'), ('name_short', 'Vanguard Energy'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VGENX'), ('tvh_total_value', '0.00')])
+
+ID:VGSIX,36777,owner2,b'Vanguard REIT': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1136'), ('account_ID', '36777'), ('asset_class', 'REIT'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '390.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '410.0'), ('curr_share_price', '27.84'), ('curr_total_value', '11414.40'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '43'), ('name', 'Vanguard REIT'), ('name_short', 'Vanguard REIT'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VGSIX'), ('tvh_total_value', '0.00')])
+
+ID:VCVLX,37777,owner1,b'Vanguard Capital Value': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1168'), ('account_ID', '37777'), ('asset_class', 'Mid_Value'), ('asset_class_from_web', 'Mid-Cap Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '400.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '420.0'), ('curr_share_price', '12.29'), ('curr_total_value', '5161.80'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '44'), ('name', 'Vanguard Capital Value'), ('name_short', 'Vanguard Capital Value'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VCVLX'), ('tvh_total_value', '0.00')])
+
+ID:VDIGX,38777,owner2,b'Vanguard Dividend Growth': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1201'), ('account_ID', '38777'), ('asset_class', 'Large_Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '73.28'), ('cb_quantity', '410.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '17.72'), ('cb_total_value', '7265.20')])]]), ('curr_quantity', '430.0'), ('curr_share_price', '24.11'), ('curr_total_value', '10367.30'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '45'), ('name', 'Vanguard Dividend Growth'), ('name_short', 'Vanguard Dividend Growth'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VDIGX'), ('tvh_total_value', '0.00')])
+
+ID:VEIPX,39777,owner1,b'Vanguard Equity Income': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1234'), ('account_ID', '39777'), ('asset_class', 'Large_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '420.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '440.0'), ('curr_share_price', '33.23'), ('curr_total_value', '14621.20'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '46'), ('name', 'Vanguard Equity Income'), ('name_short', 'Vanguard Equity Income'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VEIPX'), ('tvh_total_value', '0.00')])
+
+ID:VHGEX,40777,owner2,b'Vanguard Global Equity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1266'), ('account_ID', '40777'), ('asset_class', 'Global'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '430.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '450.0'), ('curr_share_price', '26.09'), ('curr_total_value', '11740.50'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '47'), ('name', 'Vanguard Global Equity'), ('name_short', 'Vanguard Global Equity'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VHGEX'), ('tvh_total_value', '0.00')])
+
+ID:VISGX,41777,owner1,b'Vanguard Small-Cap Growth Idx Fund': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1298'), ('account_ID', '41777'), ('asset_class', 'Small_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '6.62'), ('cb_quantity', '440.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '21.47'), ('cb_total_value', '9446.80')])]]), ('curr_quantity', '460.0'), ('curr_share_price', '39.33'), ('curr_total_value', '18091.80'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '48'), ('name', 'Vanguard Small-Cap Growth Idx Fund'), ('name_short', 'Vanguard Small Growth Idx'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VISGX'), ('tvh_total_value', '0.00')])
+
+ID:VGSLX,42777,owner2,b'Vanguard REIT': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1331'), ('account_ID', '42777'), ('asset_class', 'REIT'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '450.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '470.0'), ('curr_share_price', '118.78'), ('curr_total_value', '55826.60'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '49'), ('name', 'Vanguard REIT'), ('name_short', 'Vanguard REIT'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VGSLX'), ('tvh_total_value', '0.00')])
+
+ID:VHCAX,43777,owner1,b'Vanguard Capital Opportunity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1363'), ('account_ID', '43777'), ('asset_class', 'Mid_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_gain_loss', '0.00'), ('cb_quantity', '460.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '480.0'), ('curr_share_price', '131.60'), ('curr_total_value', '63168.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '50'), ('name', 'Vanguard Capital Opportunity'), ('name_short', 'Vanguard Capital Opportunity'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Rollover_IRA'), ('retirement_class_short', 'Rollover'), ('status', 'active'), ('symbol', 'VHCAX'), ('tvh_total_value', '0.00')])
+
+ID:VSGAX,44777,owner2,b'Vanguard Small-Cap Growth Idx Fund Admiral': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1396'), ('account_ID', '44777'), ('asset_class', 'Small_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '470.0'), ('cb_reason', 'Baron Fund'), ('cb_share_price', '0.00'), ('cb_total_value', '10080.00')])], ['cb_event', OrderedDict([('cb_date', '20110815'), ('cb_event_type', 'conversion'), ('cb_quantity', '480.0'), ('cb_reason', 'Baron Fund converted to Vanguard Small Growth Idx'), ('cb_share_price', '21.00'), ('cb_total_value', '10080.00')])]]), ('curr_quantity', '490.0'), ('curr_share_price', '49.17'), ('curr_total_value', '24093.30'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '51'), ('name', 'Vanguard Small-Cap Growth Idx Fund Admiral'), ('name_short', 'Vanguard Small Growth'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Rollover_IRA'), ('retirement_class_short', 'Rollover'), ('status', 'active'), ('symbol', 'VSGAX'), ('tvh_total_value', '0.00')])
+
+ID:VGENX,45777,owner1,b'Vanguard Energy': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1436'), ('account_ID', '45777'), ('asset_class', 'Energy'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '490.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '500.0'), ('curr_share_price', '53.02'), ('curr_total_value', '26510.00'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '52'), ('name', 'Vanguard Energy'), ('name_short', 'Vanguard Energy'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Roth_IRA'), ('retirement_class_short', 'Roth_IRA'), ('status', 'active'), ('symbol', 'VGENX'), ('tvh_total_value', '0.00')])
+
+ID:VSGAX,46777,owner2,b'Vanguard Small-Cap Growth Idx': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1468'), ('account_ID', '46777'), ('asset_class', 'Small_Growth'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '500.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '510.0'), ('curr_share_price', '49.17'), ('curr_total_value', '25076.70'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '53'), ('name', 'Vanguard Small-Cap Growth Idx'), ('name_short', 'Vanguard Small Growth'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Roth_IRA'), ('retirement_class_short', 'Roth_IRA'), ('status', 'active'), ('symbol', 'VSGAX'), ('tvh_total_value', '0.00')])
+
+ID:VCVLX,47777,owner1,b'Vanguard Capital Value': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1500'), ('account_ID', '47777'), ('asset_class', 'Mid_Value'), ('asset_class_from_web', 'Mid-Cap Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '510.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '520.0'), ('curr_share_price', '12.29'), ('curr_total_value', '6390.80'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '54'), ('name', 'Vanguard Capital Value'), ('name_short', 'Vanguard Capital Value'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VCVLX'), ('tvh_total_value', '0.00')])
+
+ID:VDIGX,48777,owner2,b'Vanguard Dividend Growth': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1533'), ('account_ID', '48777'), ('asset_class', 'Large_Blend'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '520.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '530.0'), ('curr_share_price', '24.11'), ('curr_total_value', '12778.30'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '55'), ('name', 'Vanguard Dividend Growth'), ('name_short', 'Vanguard Dividend Growth'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VDIGX'), ('tvh_total_value', '0.00')])
+
+ID:VEIPX,50777,owner2,b'Vanguard Equity Income': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1565'), ('account_ID', '50777'), ('asset_class', 'Large_Value'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '540.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '27.06'), ('cb_total_value', '14612.40')])]]), ('curr_quantity', '550.0'), ('curr_share_price', '33.23'), ('curr_total_value', '18276.50'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '57'), ('name', 'Vanguard Equity Income'), ('name_short', 'Vanguard Equity Income'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VEIPX'), ('tvh_total_value', '0.00')])
+
+ID:VHGEX,51777,owner1,b'Vanguard Global Equity': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1597'), ('account_ID', '51777'), ('asset_class', 'Global'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '550.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '560.0'), ('curr_share_price', '26.09'), ('curr_total_value', '14610.40'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '58'), ('name', 'Vanguard Global Equity'), ('name_short', 'Vanguard Global Equity'), ('owner', 'owner1'), ('owner_short', 'os1'), ('retirement_class', 'Traditional_IRA'), ('retirement_class_short', 'Trad_IRA'), ('status', 'active'), ('symbol', 'VHGEX'), ('tvh_total_value', '0.00')])
+
+ID:VGENX,52777,owner2,b'Vanguard Energy': TBD fields-- 
+OrderedDict([('filename', 'demo_data_file.xml'), ('file_line_num', '1629'), ('account_ID', '52777'), ('asset_class', 'Energy'), ('brokerage', 'Vanguard'), ('cost_basis', [['cb_event', OrderedDict([('cb_date', '00000000'), ('cb_event_type', 'purchase'), ('cb_quantity', '560.0'), ('cb_reason', 'TBD_cost_basis'), ('cb_share_price', '0.00'), ('cb_total_value', '0.00')])]]), ('curr_quantity', '570.0'), ('curr_share_price', '53.02'), ('curr_total_value', '30221.40'), ('description', 'TBD'), ('history', 'TBD_history'), ('inv_ID', '59'), ('name', 'Vanguard Energy'), ('name_short', 'Vanguard Energy'), ('owner', 'owner2'), ('owner_short', 'os2'), ('retirement_class', 'Roth_IRA'), ('retirement_class_short', 'Roth_IRA'), ('status', 'active'), ('symbol', 'VGENX'), ('tvh_total_value', '0.00')])
+
+</TBD_fields>
+
+
+

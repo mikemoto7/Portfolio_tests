@@ -1,0 +1,80 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --inv diff --pfile demo_data_file.xml
+
+Processing: --price_web_update
+NOTE: Detected in columnize_output(), row 2 is missing a column: 11 instead of 12.  Row: ['---Energy---', '', '', '', '', '', '', '', '', '', ''].  Will pad the row and continue.
+
+Processing: --price_web_update --inv diff demo_data_file.xml 
+---------------------------------------------------------------------------------------------------------------------------
+Asset                           Symb  Own  iID  Account_ID  Ret_Class  Curr_Tot1  Curr_Tot2   ShPr1   ShPr2     Diff  Diff%
+---Energy---                                                                                                               
+Vanguard Energy                VGELX  os1   20       15777    Non_Ret   19898.00   19086.00   99.49   95.43   -812.0  -4.08
+Vanguard Energy                VGENX  os1   42       35777   Trad_IRA   21208.00   20344.00   53.02   50.86   -864.0  -4.07
+Vanguard Energy                VGENX  os1   52       45777   Roth_IRA   26510.00   25430.00   53.02   50.86  -1080.0  -4.07
+Vanguard Energy                VGENX  os2   59       52777   Roth_IRA   30221.40   28990.20   53.02   50.86  -1231.2  -4.07
+---Global---                                                                                                               
+Fidelity Canada                FICDX  os2   39       34777   Trad_IRA   19995.30   19051.50   51.27   48.85   -943.8  -4.72
+Vanguard Global Equity         VHGEX  os2    5        4777    SEP_IRA    2348.10    2520.90   26.09   28.01    172.8   7.36
+Vanguard Global Equity         VHGEX  os2   23       18777    Non_Ret    6000.70    6442.30   26.09   28.01    441.6   7.36
+Vanguard Global Equity         VHGEX  os2   47       40777   Trad_IRA   11740.50   12604.50   26.09   28.01    864.0   7.36
+Vanguard Global Equity         VHGEX  os1   58       51777   Trad_IRA   14610.40   15685.60   26.09   28.01   1075.2   7.36
+Vanguard Global Min Volatile   VMVFX  os1   24       19777    Non_Ret    2937.60    3086.40   12.24   12.86    148.8   5.07
+---Healthcare---                                                                                                           
+Vanguard Healthcare            VGHAX  os2    1         777    SEP_IRA    4135.50    4310.50   82.71   86.21    175.0   4.23
+Vanguard Healthcare            VGHAX  os1   26       21777    Non_Ret   21504.60   22414.60   82.71   86.21    910.0   4.23
+---Individual_Stocks---                                                                                                    
+Netflix                         NFLX  os1   18       13777    Non_Ret   25878.60   28803.60  143.77  160.02   2925.0   11.3
+---Large_Blend---                                                                                                          
+Vanguard Dividend Growth       VDIGX  os2   45       38777   Trad_IRA   10367.30   10767.20   24.11   25.04    399.9   3.86
+Vanguard Dividend Growth       VDIGX  os2   55       48777   Trad_IRA   12778.30   13271.20   24.11   25.04    492.9   3.86
+Vanguard Total Stock Mkt Idx   VTSAX  os2   35       30777    Non_Ret   20363.00   21031.50   58.18   60.09    668.5   3.28
+---Large_Growth---                                                                                                         
+Fidelity Contrafund            FCNTX  os1   13        9777    Non_Ret   14644.00   15773.80   104.6  112.67   1129.8   7.72
+Fidelity Contrafund            FCNTX  os1   36       31777   Trad_IRA   37656.00   40561.20   104.6  112.67   2905.2   7.72
+Fidelity Contrafund            FCNTX  os1   38       33777  Trad_401K   39748.00   42814.60   104.6  112.67   3066.6   7.72
+Vanguard Growth Idx            VIGAX  os2   25       20777    Non_Ret   15197.50   16262.50   60.79   65.05   1065.0   7.01
+---Large_Value---                                                                                                          
+Vanguard Equity Income         VEIRX  os2   21       16777    Non_Ret   14628.60   15012.90   69.66   71.49    384.3   2.63
+Vanguard Equity Income         VEIPX  os1   46       39777   Trad_IRA   14621.20   15008.40   33.23   34.11    387.2   2.65
+Vanguard Equity Income         VEIPX  os2   57       50777   Trad_IRA   18276.50   18760.50   33.23   34.11    484.0   2.65
+---Mid_Blend_Aggress---                                                                                                    
+Vanguard Extended Mkt Idx      VEXAX  os1   22       17777    Non_Ret   16662.80   16827.80   75.74   76.49    165.0   0.99
+Vanguard Mid-Cap Idx           VIMAX  os2   27       22777    Non_Ret   46213.20   47341.80  171.16  175.34   1128.6   2.44
+Vanguard Strategic Equity      VSEQX  os2   33       28777    Non_Ret   11097.90   11041.80   33.63   33.46    -56.1  -0.51
+---Mid_Growth---                                                                                                           
+Fidelity New Millennium        FMILX  os2   14       10777    Non_Ret    5613.00    5737.50   37.42   38.25    124.5   2.22
+Vanguard Capital Opportunity   VHCOX  os2   19       14777    Non_Ret   10831.90   11538.70   57.01   60.73    706.8   6.53
+Vanguard Capital Opportunity   VHCAX  os1   50       43777   Rollover   63168.00   67305.60   131.6  140.22   4137.6   6.55
+Vanguard Mid-Cap Growth        VMGRX  os1    8        7777   Trad_IRA    2817.60    2931.60   23.48   24.43    114.0   4.05
+Vanguard Mid-Cap Growth        VMGRX  os2    9        8777   Trad_IRA    3052.40    3175.90   23.48   24.43    123.5   4.05
+---Mid_Value---                                                                                                            
+Fidelity Low-Priced Stock      FLPSX  os2   37       32777   Trad_IRA   18825.60   19439.80   50.88   52.54    614.2   3.26
+Vanguard Capital Value         VCVLX  os1   44       37777   Trad_IRA    5161.80    5216.40   12.29   12.42     54.6   1.06
+Vanguard Capital Value         VCVLX  os1   54       47777   Trad_IRA    6390.80    6458.40   12.29   12.42     67.6   1.06
+Vanguard Mid-Cap Value         VMVAX  os1   28       23777    Non_Ret   14677.60   14826.00   52.42   52.95    148.4   1.01
+Vanguard Selected Value        VASVX  os1   30       25777    Non_Ret    9027.00    9198.00   30.09   30.66    171.0   1.89
+---REIT---                                                                                                                 
+Vanguard REIT                  VGSLX  os1    4        3777    SEP_IRA    9502.40    9244.80  118.78  115.56   -257.6  -2.71
+Vanguard REIT                  VGSIX  os2    7        6777   Trad_IRA    3062.40    2978.80   27.84   27.08    -83.6  -2.73
+Vanguard REIT                  VGSLX  os2   29       24777    Non_Ret   34446.20   33512.40  118.78  115.56   -933.8  -2.71
+Vanguard REIT                  VGSIX  os2   43       36777   Trad_IRA   11414.40   11102.80   27.84   27.08   -311.6  -2.73
+Vanguard REIT                  VGSLX  os2   49       42777   Trad_IRA   55826.60   54313.20  118.78  115.56  -1513.4  -2.71
+---Small_Blend---                                                                                                          
+Vanguard Small Idx             NAESX  os2    3        2777   Trad_IRA    4477.20    4466.70   63.96   63.81    -10.5  -0.23
+Vanguard Tax-Managed Sml Val   VTMSX  os1   34       29777    Non_Ret   19019.60   18910.80   55.94   55.62   -108.8  -0.57
+---Small_Growth---                                                                                                         
+Vanguard Small Growth          VSGAX  os2   51       44777   Rollover   24093.30   24794.00   49.17    50.6    700.7   2.91
+Vanguard Small Growth          VSGAX  os2   53       46777   Roth_IRA   25076.70   25806.00   49.17    50.6    729.3   2.91
+Vanguard Small Growth Idx      VSGAX  os2   31       26777    Non_Ret   15242.70   15686.00   49.17    50.6    443.3   2.91
+Vanguard Small Growth Idx      VISGX  os1   48       41777   Trad_IRA   18091.80   18616.20   39.33   40.47    524.4    2.9
+---Small_Value---                                                                                                          
+Vanguard Small-Cap Val Idx     VISVX  os1    6        5777   Trad_IRA    2970.00    2927.00    29.7   29.27    -43.0  -1.45
+Vanguard Small-Cap Val Idx     VSIAX  os1   32       27777    Non_Ret   17036.80   16784.00   53.24   52.45   -252.8  -1.48
+---Stats---                                                                                                                
+Totals                            49                                    859068.8   878215.9                  19147.1       
+Totals diff percent                                                                                                    2.23
+Avg diff percent                                                                                                       2.27
+Count pos diff percent                                                                                                   34
+Count neg diff percent                                                                                                   15
+Count neutral diff percent                                                                                                0
+

@@ -1,0 +1,197 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --ac_web_update --pt show%lp%add:Large_Blend,Retirement,13000%show%lp%show --pfile demo_data_file.xml
+
+Processing: --price_web_update
+
+Processing: --ac_web_update
+
+Processing:  --pt show
+--pt show = --pt show_percent and --pt show_ac_misc_totals
+
+Processing:  --pt show_percent
+
+---------------------------------------------------------------------------------------------------------
+                          Tot       Tot     Tot        Ret       Ret    Ret    Non_Ret   Non_Ret  Non_Ret
+Asset_Class         inv_count       amt     pct  inv_count       amt    pct  inv_count       amt      pct
+Energy                      4   93775.4   10.68          3   74705.4  14.11          1   19070.0     5.46
+Global                      6   59665.1    6.79          4   50127.4   9.47          2    9537.7     2.73
+Healthcare                  2   26734.4    3.04          1    4312.0   0.81          1   22422.4     6.43
+Individual_Stocks           1   28693.8    3.27          0       0.0   0.00          1   28693.8     8.22
+Large_Blend                 3   45011.4    5.13          2   23990.4   4.53          1   21021.0     6.02
+Large_Growth                4  116004.2   13.21          2   83871.6  15.85          2   32132.6     9.21
+Large_Value                 3   48812.1    5.56          2   33788.7   6.38          1   15023.4     4.31
+Mid_Blend_Aggress           3   75099.3    8.55          0       0.0   0.00          3   75099.3    21.52
+Mid_Growth                  5   91000.3   10.36          3   73643.3  13.91          2   17357.0     4.97
+Mid_Value                   5   55137.0    6.28          3   31159.0   5.89          2   23978.0     6.87
+REIT                        5  110356.0   12.57          4   77084.3  14.56          1   33271.7     9.53
+Small_Blend                 2   23400.7    2.66          1    4493.3   0.85          1   18907.4     5.42
+Small_Growth                4   84902.2    9.67          3   69216.2  13.08          1   15686.0     4.50
+Small_Value                 2   19668.8    2.24          1    2920.0   0.55          1   16748.8     4.80
+Totals                     49  878260.7  100.01         29  529311.6  99.99         20  348949.1    99.99
+                                                                                                         
+
+Processing:  --pt show_ac_misc_totals
+
+-----------------------------------------------------------------------------------------------
+                     Tot       Tot     Tot    Ret       Ret     Ret  Non_Ret   Non_Ret  Non_Ret
+                   count       amt     pct  count       amt     pct    count       amt      pct
+Asset Classes         14                       12                         14                   
+                                                                                               
+                                                                                               
+Vanguard              42  705316.6   80.31     25  406705.4   76.84       17  298611.2    85.57
+Fidelity               6  144250.3   16.42      4  122606.2   23.16        2   21644.1     6.20
+Schwab                 1   28693.8    3.27      0       0.0    0.00        1   28693.8     8.22
+Totals                49  878260.7  100.00     29  529311.6  100.00       20  348949.1    99.99
+                                                                                               
+                                                                                               
+retirement_class      49  878260.7  100.00     29  529311.6   60.27       20  348949.1    39.73
+                                                                                               
+owner2                26  439468.9   50.04     16  256106.2   48.38       10  183362.7    52.55
+owner1                23  438791.8   49.96     13  273205.4   51.62       10  165586.4    47.45
+Totals                49  878260.7  100.00     29  529311.6  100.00       20  348949.1   100.00
+                                                                                               
+
+Processing:  --pt lp
+
+What to invest in next = has the lowest percents = at the top of the list--
+----------------------------------------------------------------------------
+List includes Bonds and Individual_Stocks but they are pushed down to the bottom of the lists.
+------------------------------------------------------------------------------------------------------------------------------------
+                    Sorted                                               Sorted                                               Sorted
+Asset                Tot_%  Ret_%  Non_%     Asset                Tot_%   Ret_%  Non_%     Asset                Tot_%  Ret_%   Non_%
+Small_Value           2.24   0.55   4.80     Mid_Blend_Aggress     8.55    0.00  21.52     Global                6.79   9.47    2.73
+Small_Blend           2.66   0.85   5.42     Small_Value           2.24    0.55   4.80     Large_Value           5.56   6.38    4.31
+Healthcare            3.04   0.81   6.43     Healthcare            3.04    0.81   6.43     Small_Growth          9.67  13.08    4.50
+Large_Blend           5.13   4.53   6.02     Small_Blend           2.66    0.85   5.42     Small_Value           2.24   0.55    4.80
+Large_Value           5.56   6.38   4.31     Large_Blend           5.13    4.53   6.02     Mid_Growth           10.36  13.91    4.97
+Mid_Value             6.28   5.89   6.87     Mid_Value             6.28    5.89   6.87     Small_Blend           2.66   0.85    5.42
+Global                6.79   9.47   2.73     Large_Value           5.56    6.38   4.31     Energy               10.68  14.11    5.46
+Mid_Blend_Aggress     8.55   0.00  21.52     Global                6.79    9.47   2.73     Large_Blend           5.13   4.53    6.02
+Small_Growth          9.67  13.08   4.50     Small_Growth          9.67   13.08   4.50     Healthcare            3.04   0.81    6.43
+Mid_Growth           10.36  13.91   4.97     Mid_Growth           10.36   13.91   4.97     Mid_Value             6.28   5.89    6.87
+Energy               10.68  14.11   5.46     Energy               10.68   14.11   5.46     Large_Growth         13.21  15.85    9.21
+REIT                 12.57  14.56   9.53     REIT                 12.57   14.56   9.53     REIT                 12.57  14.56    9.53
+Large_Growth         13.21  15.85   9.21     Large_Growth         13.21   15.85   9.21     Mid_Blend_Aggress     8.55   0.00   21.52
+Individual_Stocks     3.27   0.00   8.22     Individual_Stocks     3.27    0.00   8.22     Individual_Stocks     3.27   0.00    8.22
+Totals              100.01  99.99  99.99     Totals              100.01   99.99  99.99     Totals              100.01  99.99   99.99
+
+Processing:  --pt add:Large_Blend,Retirement,13000
+
+Processing: --pt add:Large_Blend,Retirement,13000
+
+Processing:  --pt show
+--pt show = --pt show_percent and --pt show_ac_misc_totals
+
+Processing:  --pt show_percent
+
+---------------------------------------------------------------------------------------------------------------------------------
+                          Tot               Tot        Tot        Ret               Ret        Ret    Non_Ret    Non_Ret  Non_Ret
+Asset_Class         inv_count               amt        pct  inv_count               amt        pct  inv_count        amt      pct
+Energy                      4          93775.04      10.52          3          74705.04      13.78          1    19070.0     5.47
+Global                      6          59665.01       6.69          4          50127.04       9.24          2    9537.07     2.73
+Healthcare                  2          26734.04       3.00          1            4312.0       0.80          1   22422.04     6.43
+Individual_Stocks           1          28693.08       3.22          0               0.0       0.00          1   28693.08     8.22
+Large_Blend *               4  13000.0+45011.04  6.51<5.13          3  13000.0+23990.04  6.82<4.53          1    21021.0     6.02
+Large_Growth                4         116004.02      13.02          2          83871.06      15.47          2   32132.06     9.21
+Large_Value                 3          48812.01       5.48          2          33788.07       6.23          1   15023.04     4.31
+Mid_Blend_Aggress           3          75099.03       8.43          0               0.0       0.00          3   75099.03    21.52
+Mid_Growth                  5          91000.03      10.21          3          73643.03      13.58          2    17357.0     4.97
+Mid_Value                   5           55137.0       6.19          3           31159.0       5.75          2    23978.0     6.87
+REIT                        5          110356.0      12.38          4          77084.03      14.21          1   33271.07     9.53
+Small_Blend                 2          23400.07       2.63          1           4493.03       0.83          1   18907.04     5.42
+Small_Growth                4          84902.02       9.53          3          69216.02      12.76          1    15686.0     4.50
+Small_Value                 2          19668.08       2.21          1            2920.0       0.54          1   16748.08     4.80
+Totals                     50         891256.47     100.02         30         542308.36     100.01         20  348944.51   100.00
+                                                                                                                                 
+
+Processing:  --pt show_ac_misc_totals
+
+-----------------------------------------------------------------------------------------------
+                     Tot       Tot     Tot    Ret       Ret     Ret  Non_Ret   Non_Ret  Non_Ret
+                   count       amt     pct  count       amt     pct    count       amt      pct
+Asset Classes         14                       12                         14                   
+                                                                                               
+                                                                                               
+Vanguard              42  705316.6   80.31     25  406705.4   76.84       17  298611.2    85.57
+Fidelity               6  144250.3   16.42      4  122606.2   23.16        2   21644.1     6.20
+Schwab                 1   28693.8    3.27      0       0.0    0.00        1   28693.8     8.22
+Totals                49  878260.7  100.00     29  529311.6  100.00       20  348949.1    99.99
+                                                                                               
+                                                                                               
+retirement_class      49  878260.7  100.00     29  529311.6   60.27       20  348949.1    39.73
+                                                                                               
+owner2                26  439468.9   50.04     16  256106.2   48.38       10  183362.7    52.55
+owner1                23  438791.8   49.96     13  273205.4   51.62       10  165586.4    47.45
+Totals                49  878260.7  100.00     29  529311.6  100.00       20  348949.1   100.00
+                                                                                               
+
+Processing:  --pt lp
+
+What to invest in next = has the lowest percents = at the top of the list--
+----------------------------------------------------------------------------
+List includes Bonds and Individual_Stocks but they are pushed down to the bottom of the lists.
+------------------------------------------------------------------------------------------------------------------------------------
+                    Sorted                                               Sorted                                               Sorted
+Asset                Tot_%  Ret_%  Non_%     Asset                Tot_%   Ret_%  Non_%     Asset                Tot_%  Ret_%   Non_%
+Small_Value           2.24   0.55   4.80     Mid_Blend_Aggress     8.55    0.00  21.52     Global                6.79   9.47    2.73
+Small_Blend           2.66   0.85   5.42     Small_Value           2.24    0.55   4.80     Large_Value           5.56   6.38    4.31
+Healthcare            3.04   0.81   6.43     Healthcare            3.04    0.81   6.43     Small_Growth          9.67  13.08    4.50
+Large_Blend           5.13   4.53   6.02     Small_Blend           2.66    0.85   5.42     Small_Value           2.24   0.55    4.80
+Large_Value           5.56   6.38   4.31     Large_Blend           5.13    4.53   6.02     Mid_Growth           10.36  13.91    4.97
+Mid_Value             6.28   5.89   6.87     Mid_Value             6.28    5.89   6.87     Small_Blend           2.66   0.85    5.42
+Global                6.79   9.47   2.73     Large_Value           5.56    6.38   4.31     Energy               10.68  14.11    5.46
+Mid_Blend_Aggress     8.55   0.00  21.52     Global                6.79    9.47   2.73     Large_Blend           5.13   4.53    6.02
+Small_Growth          9.67  13.08   4.50     Small_Growth          9.67   13.08   4.50     Healthcare            3.04   0.81    6.43
+Mid_Growth           10.36  13.91   4.97     Mid_Growth           10.36   13.91   4.97     Mid_Value             6.28   5.89    6.87
+Energy               10.68  14.11   5.46     Energy               10.68   14.11   5.46     Large_Growth         13.21  15.85    9.21
+REIT                 12.57  14.56   9.53     REIT                 12.57   14.56   9.53     REIT                 12.57  14.56    9.53
+Large_Growth         13.21  15.85   9.21     Large_Growth         13.21   15.85   9.21     Mid_Blend_Aggress     8.55   0.00   21.52
+Individual_Stocks     3.27   0.00   8.22     Individual_Stocks     3.27    0.00   8.22     Individual_Stocks     3.27   0.00    8.22
+Totals              100.01  99.99  99.99     Totals              100.01   99.99  99.99     Totals              100.01  99.99   99.99
+
+Processing:  --pt show
+--pt show = --pt show_percent and --pt show_ac_misc_totals
+
+Processing:  --pt show_percent
+
+---------------------------------------------------------------------------------------------------------------------------------
+                          Tot               Tot        Tot        Ret               Ret        Ret    Non_Ret    Non_Ret  Non_Ret
+Asset_Class         inv_count               amt        pct  inv_count               amt        pct  inv_count        amt      pct
+Energy                      4          93775.04      10.52          3          74705.04      13.78          1    19070.0     5.47
+Global                      6          59665.01       6.69          4          50127.04       9.24          2    9537.07     2.73
+Healthcare                  2          26734.04       3.00          1            4312.0       0.80          1   22422.04     6.43
+Individual_Stocks           1          28693.08       3.22          0               0.0       0.00          1   28693.08     8.22
+Large_Blend *               4  13000.0+45011.04  6.51<5.13          3  13000.0+23990.04  6.82<4.53          1    21021.0     6.02
+Large_Growth                4         116004.02      13.02          2          83871.06      15.47          2   32132.06     9.21
+Large_Value                 3          48812.01       5.48          2          33788.07       6.23          1   15023.04     4.31
+Mid_Blend_Aggress           3          75099.03       8.43          0               0.0       0.00          3   75099.03    21.52
+Mid_Growth                  5          91000.03      10.21          3          73643.03      13.58          2    17357.0     4.97
+Mid_Value                   5           55137.0       6.19          3           31159.0       5.75          2    23978.0     6.87
+REIT                        5          110356.0      12.38          4          77084.03      14.21          1   33271.07     9.53
+Small_Blend                 2          23400.07       2.63          1           4493.03       0.83          1   18907.04     5.42
+Small_Growth                4          84902.02       9.53          3          69216.02      12.76          1    15686.0     4.50
+Small_Value                 2          19668.08       2.21          1            2920.0       0.54          1   16748.08     4.80
+Totals                     50         891256.47     100.02         30         542308.36     100.01         20  348944.51   100.00
+                                                                                                                                 
+
+Processing:  --pt show_ac_misc_totals
+
+-----------------------------------------------------------------------------------------------
+                     Tot       Tot     Tot    Ret       Ret     Ret  Non_Ret   Non_Ret  Non_Ret
+                   count       amt     pct  count       amt     pct    count       amt      pct
+Asset Classes         14                       12                         14                   
+                                                                                               
+                                                                                               
+Vanguard              42  705316.6   80.31     25  406705.4   76.84       17  298611.2    85.57
+Fidelity               6  144250.3   16.42      4  122606.2   23.16        2   21644.1     6.20
+Schwab                 1   28693.8    3.27      0       0.0    0.00        1   28693.8     8.22
+Totals                49  878260.7  100.00     29  529311.6  100.00       20  348949.1    99.99
+                                                                                               
+                                                                                               
+retirement_class      49  878260.7  100.00     29  529311.6   60.27       20  348949.1    39.73
+                                                                                               
+owner2                26  439468.9   50.04     16  256106.2   48.38       10  183362.7    52.55
+owner1                23  438791.8   49.96     13  273205.4   51.62       10  165586.4    47.45
+Totals                49  878260.7  100.00     29  529311.6  100.00       20  348949.1   100.00
+                                                                                               
+

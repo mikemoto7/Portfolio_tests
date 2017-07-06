@@ -1,0 +1,146 @@
+
+Portfolio.py Script Description:
+
+An xml data file is used to store your investment information.
+You must create this xml data file manually and update it manually.  Some commands can help you with this updating, e.g., automatically go out to the web to retrieve the latest share prices.
+All commands require this xml data file.
+Each command:
+- Reads the xml data file and creates a long xml string from it.
+- The xml string is converted into a Python data structure tree (abbrev: pdt) made up of:
+   - lists (e.g., Investments, cost_basis)
+   - dicts (e.g., Investment)
+   - elements (e.g., account_number, symbol)
+   - object instances (e.g., Investment, Money)
+- The commands read and query this Python data structure to do their work.
+
+
+Runstring help:
+
+General Options:
+
+   Portfolio.py
+      With no options, displays this help screen.
+
+   Portfolio.py ... --pfile Portfolio_xml_file
+   Portfolio.py ... --pfile $Portfolio_xml_file_env_variable
+      Portfolio_xml_file can be the relative or full path name to your Portfolio_xml_file.  For security purposes, it can also be the name of an environment variable containing the path.
+
+   Portfolio.py --price_web_update --pfile Portfolio_xml_file
+      Use stock prices from the web.  This option can be used with any other option, but it is ignored when the 'diff' option is used.  See the 'diff' section for details.
+
+   Portfolio.py --ac_web_update --pfile Portfolio_xml_file
+      Use asset class names from the web to identify incorrect assset class categorization in our xml data file.
+
+Views:
+
+   Portfolio.py --stats --pfile Portfolio_xml_file
+      List out the stats for your xml file.
+
+   Portfolio.py --xml --pfile Portfolio_xml_file
+      List out the xml from your xml file.  More than just listing the file, this script will read and error-check each xml line and nested block.  Because of the potential large amount of output, when this command is used, no other runstring commands will be performed.
+
+      To capture current share prices, you can add the --price_web_update option and redirect this output to a new empty candidate xml file and use that to replace your existing xml data file:
+
+         Portfolio.py --price_web_update --xml --pfile Portfolio_xml_file
+
+Analyses:
+
+   Percents Table:
+
+      Portfolio.py --pt show --pfile Portfolio_xml_file
+         Show both the percent table and the brokerage/owner tables.
+
+      Portfolio.py --pt show_percent --pfile Portfolio_xml_file
+         Show the percent table.
+
+      Portfolio.py --pt show_ac_misc_totals --pfile Portfolio_xml_file
+         Show the brokerage/owner tables.
+
+      Portfolio.py --pt lp --pfile Portfolio_xml_file
+         Show the asset classes with the lowest percentages.  Focus on investing in these to balance asset allocation.
+
+      Portfolio.py --pt add:'Small Value',Non_Retirement,50000:'Small Value',Retirement,20000:Healthcare,Retirement,50000 --pfile Portfolio_xml_file
+         Temporarily add dollars to asset classes to see how asset class percentages will change.
+         Note that the 'add' params are strung together with ':'.  So all of these 'add' param results will show up on the same table.  If you string them together using '%', they will be treated as separate commands and show up on separate tables.
+
+      Portfolio.py --pt lp%add:'Small Value',Non_Retirement,50000:'Small Value',Retirement,20000:Healthcare,Retirement,50000%lp --pfile Portfolio_xml_file
+         You can string together options using the % character.  NOTE: When strung together like this, the 'add' option temporary changes will affect the rest of the 'show...' options in the --pt option.
+
+      Portfolio.py --pt add:'Small Value',Non_Retirement,50000:'Small Value',Retirement,20000:Healthcare,Retirement,50000%lp_diff --pfile Portfolio_xml_file
+         lp_diff after an add will show you the effect the add had on before-and-after lowest percentages sortinig/ranking.
+
+
+   Investments Table:
+
+      Portfolio.py --inv show --pfile Portfolio_xml_file
+         Show investments general data.
+
+      Portfolio.py --inv diff --pfile Portfolio_xml_file
+         Do a diff between the xml file and the xml file updated by the web.
+
+      Portfolio.py --inv diff --pfile Portfolio_xml_file1,Portfolio_xml_file2
+         Do a diff between two xml files.  Neither are updated by the web.
+
+      Portfolio.py --inv lots --pfile Portfolio_xml_file
+         Show investment cost basis purchase lots for sell planning.
+
+   All:
+
+      Portfolio.py --all [--silent] show --pfile Portfolio_xml_file
+         Create and display all of the major results tables.  Commands used:
+
+            name --price_web_update
+            value 
+            name --ac_web_update
+            value 
+            name --pt
+            value show_percent
+            name --pt
+            value show_ac_misc_totals
+            name --inv
+            value lots
+            name --inv
+            value diff
+
+Misc. Commands:
+
+   Portfolio.py --noindent  ... --pfile Portfolio_xml_file
+      Indentation of displayed xml is the default.  To disable indentation, use the --noindent option.
+
+   Portfolio.py --silent  ... --pfile Portfolio_xml_file
+      Displaying all results is the default.  Use this --silent option to reduce intermediate results output.
+
+   Portfolio.py --h
+      Help screen.
+
+   Portfolio.py --cl
+      Bring up the interactive command list.  "--cl" must be the first param in the Portfolio.py runstring.
+
+   Portfolio.py --cl 10
+      Run command #10 from the command list without bringing up interactive mode first.
+
+   Portfolio.py --cl 10 --debug 1
+      Run command #10 from the command list without bringing up interactive mode first.  Include any extra params in the command #10 runstring, e.g., '--debug 1'.
+
+Debugging Commands:
+
+   Portfolio.py --xmlfile  --pfile Portfolio_xml_file
+      Show the xml string created from your xml file.  This command is similar to the --xml command.  But regular users should use --xml and not --xmlfile .  Because of the potential large amount of output, when this command is used, no other runstring commands will be performed.
+
+   Portfolio.py --pdt --pfile Portfolio_xml_file
+      Show the Python data structure tree created from the xml string.  Calculations and totals will be updated.  Data structure fields will be nested = indented.  Because of the potential large amount of output, when this command is used, no other runstring commands will be performed.
+
+   Portfolio.py --debug 1|2|12  ...  --pfile Portfolio_xml_file
+      Output debug statements at level 1 (highest) or level 2 (more detail) or both.  You can add more levels 0 and 3 to 9.
+
+   Portfolio.py --debug_linenum  ...  --pfile Portfolio_xml_file
+      Show the filename and line number at the start of every screen output line.  Useful for tracking down table formatting and value problems faster.
+
+   Portfolio.py --trace [wc:var_name]  ...  --pfile Portfolio_xml_file
+      Output a trace logfile for the test run.  The file will contain a line for each function call and return.  Lines will be nested to indicate calling relationships.  The wc:var_name option (var_name with no quotes, e.g., wc:tempvar1) allows trace to output a notification line when the value of the var_name variable changes.
+
+TBD
+
+
+
+

@@ -1,0 +1,26 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --pt show_ac_misc_totals --pfile demo_data_file.xml
+
+Processing: --price_web_update
+
+Processing:  --pt show_ac_misc_totals
+
+-----------------------------------------------------------------------------------------------
+                     Tot       Tot     Tot    Ret       Ret     Ret  Non_Ret   Non_Ret  Non_Ret
+                   count       amt     pct  count       amt     pct    count       amt      pct
+Asset Classes         14                       12                         14                   
+                                                                                               
+                                                                                               
+Vanguard              42  706033.9   80.39     25  407030.4   76.96       17  299003.5    85.60
+Fidelity               6  143378.4   16.33      4  121867.1   23.04        2   21511.3     6.16
+Schwab                 1   28803.6    3.28      0       0.0    0.00        1   28803.6     8.25
+Totals                49  878215.9  100.00     29  528897.5  100.00       20  349318.4   100.01
+                                                                                               
+                                                                                               
+retirement_class      49  878215.9  100.00     29  528897.5   60.22       20  349318.4    39.78
+                                                                                               
+owner2                26  439961.1   50.10     16  256353.7   48.47       10  183607.4    52.56
+owner1                23  438254.8   49.90     13  272543.8   51.53       10  165711.0    47.44
+Totals                49  878215.9  100.00     29  528897.5  100.00       20  349318.4   100.00
+                                                                                               
+

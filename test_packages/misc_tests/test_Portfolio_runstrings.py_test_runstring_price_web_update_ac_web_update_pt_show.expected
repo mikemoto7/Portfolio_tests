@@ -1,0 +1,73 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --ac_web_update --pt show%lp%add:Small_Value,Retirement,13000%show_percent%lp_diff --pfile demo_data_file.xml
+
+
+Processing: --price_web_update
+
+Processing: --ac_web_update
+
+-----------------------------------------------------------------------------------------------------------
+                          Tot        Tot    Tot        Ret        Ret    Ret    Non_Ret    Non_Ret  Non_Ret
+Asset_Class         inv_count        amt    pct  inv_count        amt    pct  inv_count        amt      pct
+Energy                      4   97837.40  11.39          3   77939.40  15.04          1   19898.00     5.84
+Global                      6   57632.60   6.71          4   48694.30   9.40          2    8938.30     2.62
+Healthcare                  2   25640.10   2.98          1    4135.50   0.80          1   21504.60     6.31
+Individual_Stocks           1   25878.60   3.01          0       0.00   0.00          1   25878.60     7.59
+Large_Blend                 3   43508.60   5.06          2   23145.60   4.47          1   20363.00     5.97
+Large_Growth                4  107245.50  12.48          2   77404.00  14.94          2   29841.50     8.75
+Large_Value                 3   47526.30   5.53          2   32897.70   6.35          1   14628.60     4.29
+Mid_Blend_Aggress           3   73973.90   8.61          0       0.00   0.00          3   73973.90    21.70
+Mid_Growth                  5   85482.90   9.95          3   69038.00  13.32          2   16444.90     4.82
+Mid_Value                   5   54082.80   6.30          3   30378.20   5.86          2   23704.60     6.95
+REIT                        5  114252.00  13.30          4   79805.80  15.40          1   34446.20    10.10
+Small_Blend                 2   23496.80   2.74          1    4477.20   0.86          1   19019.60     5.58
+Small_Growth                4   82504.50   9.60          3   67261.80  12.98          1   15242.70     4.47
+Small_Value                 2   20006.80   2.33          1    2970.00   0.57          1   17036.80     5.00
+Totals                     49  859068.80  99.99         29  518147.50  99.99         20  340921.30    99.99
+                                                                                                           
+
+What to invest in next = has the lowest percents = at the top of the list--
+----------------------------------------------------------------------------
+List includes Bonds and Individual_Stocks but they are pushed down to the bottom of the lists.
+----------------------------------------------------------------------------------------------------------------------------------
+                    Sorted                                              Sorted                                              Sorted
+Asset                Tot_%  Ret_%  Non_%     Asset               Tot_%   Ret_%  Non_%     Asset               Tot_%  Ret_%   Non_%
+Small_Value           2.33   0.57   5.00     Mid_Blend_Aggress    8.61    0.00  21.70     Global               6.71   9.40    2.62
+Small_Blend           2.74   0.86   5.58     Small_Value          2.33    0.57   5.00     Large_Value          5.53   6.35    4.29
+Healthcare            2.98   0.80   6.31     Healthcare           2.98    0.80   6.31     Small_Growth         9.60  12.98    4.47
+Large_Blend           5.06   4.47   5.97     Small_Blend          2.74    0.86   5.58     Mid_Growth           9.95  13.32    4.82
+Large_Value           5.53   6.35   4.29     Large_Blend          5.06    4.47   5.97     Small_Value          2.33   0.57    5.00
+Mid_Value             6.30   5.86   6.95     Mid_Value            6.30    5.86   6.95     Small_Blend          2.74   0.86    5.58
+Global                6.71   9.40   2.62     Large_Value          5.53    6.35   4.29     Energy              11.39  15.04    5.84
+Mid_Blend_Aggress     8.61   0.00  21.70     Global               6.71    9.40   2.62     Large_Blend          5.06   4.47    5.97
+Small_Growth          9.60  12.98   4.47     Small_Growth         9.60   12.98   4.47     Healthcare           2.98   0.80    6.31
+Mid_Growth            9.95  13.32   4.82     Mid_Growth           9.95   13.32   4.82     Mid_Value            6.30   5.86    6.95
+Energy               11.39  15.04   5.84     Large_Growth        12.48   14.94   8.75     Large_Growth        12.48  14.94    8.75
+Large_Growth         12.48  14.94   8.75     Energy              11.39   15.04   5.84     REIT                13.30  15.40   10.10
+REIT                 13.30  15.40  10.10     REIT                13.30   15.40  10.10     Mid_Blend_Aggress    8.61   0.00   21.70
+Individual_Stocks     3.01   0.00   7.59     Individual_Stocks    3.01    0.00   7.59     Individual_Stocks    3.01   0.00    7.59
+Totals               99.99  99.99  99.99     Totals              99.99   99.99  99.99     Totals              99.99  99.99   99.99
+
+Processing: --pt add:Small_Value,Retirement,13000
+
+Processing: --pt show_percent
+----------------------------------------------------------------------------------------------------------------------------------
+                          Tot                Tot        Tot        Ret               Ret        Ret    Non_Ret    Non_Ret  Non_Ret
+Asset_Class         inv_count                amt        pct  inv_count               amt        pct  inv_count        amt      pct
+Energy                      4           97837.40      11.22          3          77939.40      14.67          1   19898.00     5.84
+Global                      6           57632.60       6.61          4          48694.30       9.17          2    8938.30     2.62
+Healthcare                  2           25640.10       2.94          1           4135.50       0.78          1   21504.60     6.31
+Individual_Stocks           1           25878.60       2.97          0              0.00       0.00          1   25878.60     7.59
+Large_Blend                 3           43508.60       4.99          2          23145.60       4.36          1   20363.00     5.97
+Large_Growth                4          107245.50      12.30          2          77404.00      14.57          2   29841.50     8.75
+Large_Value                 3           47526.30       5.45          2          32897.70       6.19          1   14628.60     4.29
+Mid_Blend_Aggress           3           73973.90       8.48          0              0.00       0.00          3   73973.90    21.70
+Mid_Growth                  5           85482.90       9.80          3          69038.00      13.00          2   16444.90     4.82
+Mid_Value                   5           54082.80       6.20          3          30378.20       5.72          2   23704.60     6.95
+REIT                        5          114252.00      13.10          4          79805.80      15.03          1   34446.20    10.10
+Small_Blend                 2           23496.80       2.69          1           4477.20       0.84          1   19019.60     5.58
+Small_Growth                4           82504.50       9.46          3          67261.80      12.66          1   15242.70     4.47
+Small_Value *               3  13000.00+20006.80  3.78<2.33          2  13000.00+2970.00  3.01<0.57          1   17036.80     5.00
+Totals                     50          872068.80      99.99         30         531147.50     100.00         20  340921.30    99.99
+                                                                                                                                  
+

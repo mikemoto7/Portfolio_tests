@@ -1,0 +1,51 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --pt show --pfile demo_data_file.xml
+
+Processing: --price_web_update
+
+Processing:  --pt show
+--pt show = --pt show_percent and --pt show_ac_misc_totals
+
+Processing:  --pt show_percent
+
+---------------------------------------------------------------------------------------------------------
+                          Tot       Tot    Tot        Ret       Ret     Ret    Non_Ret   Non_Ret  Non_Ret
+Asset_Class         inv_count       amt    pct  inv_count       amt     pct  inv_count       amt      pct
+Energy                      4   33400.0  10.77          3   29400.0   14.08          1    4000.0     3.95
+Global                      6   39200.0  12.65          4   29800.0   14.27          2    9400.0     9.29
+Healthcare                  2    6200.0   2.00          1    1000.0    0.48          1    5200.0     5.14
+Individual_Stocks           1    3600.0   1.16          0       0.0    0.00          1    3600.0     3.56
+Large_Blend                 3   26200.0   8.45          2   19200.0    9.20          1    7000.0     6.92
+Large_Growth                4   22600.0   7.29          2   14800.0    7.09          2    7800.0     7.71
+Large_Value                 3   24000.0   7.74          2   19800.0    9.48          1    4200.0     4.15
+Mid_Blend_Aggress           3   16400.0   5.29          0       0.0    0.00          3   16400.0    16.21
+Mid_Growth                  5   21400.0   6.90          3   14600.0    6.99          2    6800.0     6.72
+Mid_Value                   5   37800.0  12.19          3   26200.0   12.55          2   11600.0    11.46
+REIT                        5   27200.0   8.77          4   21400.0   10.25          1    5800.0     5.73
+Small_Blend                 2    8200.0   2.65          1    1400.0    0.67          1    6800.0     6.72
+Small_Growth                4   35400.0  11.42          3   29200.0   13.98          1    6200.0     6.13
+Small_Value                 2    8400.0   2.71          1    2000.0    0.96          1    6400.0     6.32
+Totals                     49  310000.0  99.99         29  208800.0  100.00         20  101200.0   100.01
+                                                                                                         
+
+Processing:  --pt show_ac_misc_totals
+
+-----------------------------------------------------------------------------------------------
+                     Tot       Tot     Tot    Ret       Ret     Ret  Non_Ret   Non_Ret  Non_Ret
+                   count       amt     pct  count       amt     pct    count       amt      pct
+Asset Classes         14                       12                         14                   
+                                                                                               
+                                                                                               
+Vanguard              42  270600.0   87.29     25  178800.0   85.63       17   91800.0    90.71
+Fidelity               6   35800.0   11.55      4   30000.0   14.37        2    5800.0     5.73
+Schwab                 1    3600.0    1.16      0       0.0    0.00        1    3600.0     3.56
+Totals                49  310000.0  100.00     29  208800.0  100.00       20  101200.0   100.00
+                                                                                               
+                                                                                               
+retirement_class      49  310000.0  100.00     29  208800.0   67.35       20  101200.0    32.65
+                                                                                               
+owner2                26  164000.0   52.90     16  112400.0   53.83       10   51600.0    50.99
+owner1                23  146000.0   47.10     13   96400.0   46.17       10   49600.0    49.01
+Totals                49  310000.0  100.00     29  208800.0  100.00       20  101200.0   100.00
+                                                                                               
+

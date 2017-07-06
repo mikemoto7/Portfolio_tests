@@ -1,0 +1,4 @@
+1
+START_TESTS.py --tr tc:test_runstring_price_web_update
+1
+START_TESTS.py --tr tc:test_runstring_price_web_update

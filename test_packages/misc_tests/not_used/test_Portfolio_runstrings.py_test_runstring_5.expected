@@ -1,0 +1,29 @@
+
+Processing: user_runstring = ./Portfolio.py --price_web_update --pt lp --pfile demo_data_file.xml
+
+Processing: --price_web_update
+
+Processing:  --pt lp
+
+What to invest in next = has the lowest percents = at the top of the list--
+----------------------------------------------------------------------------
+List includes Bonds and Individual_Stocks but they are pushed down to the bottom of the lists.
+------------------------------------------------------------------------------------------------------------------------------------
+                    Sorted                                               Sorted                                               Sorted
+Asset                Tot_%  Ret_%   Non_%     Asset               Tot_%   Ret_%   Non_%     Asset               Tot_%  Ret_%   Non_%
+Small_Value           2.24   0.55    4.80     Mid_Blend_Aggress    8.56    0.00   21.53     Global               6.76   9.43    2.73
+Small_Blend           2.66   0.84    5.41     Small_Value          2.24    0.55    4.80     Large_Value          5.55   6.38    4.30
+Healthcare            3.04   0.81    6.42     Healthcare           3.04    0.81    6.42     Small_Growth         9.67  13.09    4.49
+Large_Blend           5.13   4.55    6.02     Small_Blend          2.66    0.84    5.41     Small_Value          2.24   0.55    4.80
+Large_Value           5.55   6.38    4.30     Large_Blend          5.13    4.55    6.02     Mid_Growth          10.33  13.88    4.95
+Mid_Value             6.28   5.88    6.88     Mid_Value            6.28    5.88    6.88     Small_Blend          2.66   0.84    5.41
+Global                6.76   9.43    2.73     Large_Value          5.55    6.38    4.30     Energy              10.69  14.14    5.46
+Mid_Blend_Aggress     8.56   0.00   21.53     Global               6.76    9.43    2.73     Large_Blend          5.13   4.55    6.02
+Small_Growth          9.67  13.09    4.49     Small_Growth         9.67   13.09    4.49     Healthcare           3.04   0.81    6.42
+Mid_Growth           10.33  13.88    4.95     Mid_Growth          10.33   13.88    4.95     Mid_Value            6.28   5.88    6.88
+Energy               10.69  14.14    5.46     Energy              10.69   14.14    5.46     Large_Growth        13.14  15.76    9.17
+REIT                 12.66  14.68    9.59     REIT                12.66   14.68    9.59     REIT                12.66  14.68    9.59
+Large_Growth         13.14  15.76    9.17     Large_Growth        13.14   15.76    9.17     Mid_Blend_Aggress    8.56   0.00   21.53
+Individual_Stocks     3.28   0.00    8.25     Individual_Stocks    3.28    0.00    8.25     Individual_Stocks    3.28   0.00    8.25
+Totals               99.99  99.99  100.00     Totals              99.99   99.99  100.00     Totals              99.99  99.99  100.00
+

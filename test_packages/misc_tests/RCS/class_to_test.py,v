@@ -1,0 +1,37 @@
+head	1.1;
+access;
+symbols;
+locks
+	mi:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2017.05.12.23.26.12;	author mi;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@"""
+How to use test class to wrap methods under one class
+Learn about autouse keywords in fixtures
+Assert the result to create a real test scenario
+"""
+
+class SomeClassToTest():
+
+    def __init__(self, value):
+        self.value = value
+
+
+    def sumNumbers(self, a, b):
+        return a + b + self.value@
